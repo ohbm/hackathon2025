@@ -62,7 +62,7 @@ body:
       label: Main Hub
       description: The main Hackathon Hub of your project, see more [here](https://github.com/ohbm/hackathon2025/blob/main/PROJECTS_HANDBOOK.md#hubs)
       options:
-        - Seoul
+        - Brisbane
         - Hybrid (Asia / Pacific)
         - Hybrid (Europe / Middle East / Africa)
         - Hybrid (Americas)
@@ -83,7 +83,7 @@ body:
       label: Other hubs covered by the leaders
       description: Please choose other hubs that are covered by your leaders (be sure to have at least one leader in the specific timezones, and make a note next to their names)
       options:
-        - label: Seoul
+        - label: Brisbane
         - label: Hybrid (Asia / Pacific)
         - label: Hybrid (Europe / Middle East / Africa)
         - label: Hybrid (Americas)

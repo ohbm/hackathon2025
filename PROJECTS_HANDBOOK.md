@@ -144,7 +144,7 @@ For projects conducted online or in a hybrid format, please propose the meeting 
 
 Consider scheduling a daily video meeting with your team members for effective communication.
 
-If you're in Seoul, remain receptive to online contributors and actively monitor the Discord channel!
+If you're in Brisbane, remain receptive to online contributors and actively monitor the Discord channel!
 
 
 ### Credit and onboarding
