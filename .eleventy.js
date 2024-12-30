@@ -14,6 +14,8 @@ module.exports = async function (eleventyConfig) {
 	eleventyConfig.addWatchTarget("src/_img");
 	// Yaml support
 	eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
+	// Copy scripts to production
+	eleventyConfig.addPassthroughCopy("scripts");
 	
 	// Add markdownify filter
 	eleventyConfig.addFilter("markdownify", (content) => {
