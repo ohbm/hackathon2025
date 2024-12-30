@@ -28,7 +28,7 @@ jobs:
     needs: setup
     steps:
       - name: Fetch GitHub Issues
-        run: node scripts/fetchIssues.js
+        run: node ../scripts/fetchIssues.js
 
   build:
     runs-on: ubuntu-latest
