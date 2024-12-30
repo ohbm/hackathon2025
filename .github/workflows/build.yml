@@ -27,8 +27,12 @@ jobs:
     runs-on: ubuntu-latest
     needs: setup
     steps:
-      - name: Fetch GitHub Issues
-        run: node ../scripts/fetchIssues.js
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Run fetchIssues script
+        run: node scripts/fetchIssues.js
+        env:
+          GH_AUTH: ${{ secrets.GH_AUTH }}
 
   build:
     runs-on: ubuntu-latest
