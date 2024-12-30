@@ -1,0 +1,44 @@
+/* Example: Targeting a markdown container */
+.markdown-body h1, .markdown-body h2, .markdown-body h3 {
+    font-family: 'Press Start 2P', cursive;
+    color: #ff33cc;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.markdown-body h1 {
+    font-size: 2.5em;
+}
+
+.markdown-body h2 {
+    font-size: 1.5em;
+}
+
+.markdown-body h3 {
+    font-size: 1em;
+}
+
+.markdown-body p {
+    line-height: 1.6;
+    font-size: 16px;
+    color: #eee;
+}
+
+.markdown-body code {
+    background-color: #ff33cc;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    color: #000;
+}
+
+.markdown-body a {
+    color: #00ffcc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.markdown-body a:hover {
+    color: #ff33cc;
+    text-decoration: underline;
+}

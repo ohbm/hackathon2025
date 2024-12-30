@@ -1,0 +1,17 @@
+{
+	"tasks": [
+		{
+			"type": "Live Preview",
+			"workspacePath": "/home/bhvieira/hackathon2025",
+			"problemMatcher": [],
+			"label": "Live Preview: Run Server"
+		},
+		{
+			"type": "shell",
+			"command": "source ~/.bashrc && npx @11ty/eleventy --serve",
+			"problemMatcher": [],
+			"label": "Serve with Eleventy"
+		}
+	],
+	"version": "2.0.0"
+}

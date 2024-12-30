@@ -1,0 +1,17 @@
+methods:
+  - label: Twitter
+    icon: fab fa-x-twitter
+    url: https://twitter.com/OhbmOpen
+    delay: .1s
+  - label: Email
+    icon: far fa-envelope
+    url: mailto:ohbmopenscience@gmail.com
+    delay: .2s
+  - label: GitHub
+    icon: fab fa-github
+    url: https://github.com/ohbm/hackathon2025
+    delay: .3s
+  - label: Discord
+    icon: fab fa-discord
+    url: https://discord.gg/Vqr6WYwdQ2
+    delay: .3s
