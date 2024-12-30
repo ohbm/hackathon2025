@@ -10,8 +10,8 @@ title: OHBM Hackathon 2025
   Join us in vibrant Brisbane for an unforgettable experience of innovation, collaboration, and learning. Together, let's shape the future of neuroimaging and open science!
   {% endblock %}
   <div class="cta-buttons">
-    <a href="/register/" class="btn-primary">Register Now</a>
-    <a href="/volunteer/" class="btn-secondary">Volunteer</a>
+    <a href="#" class="btn-primary" onclick="showPopup()">Register Now</a>
+    <a href="#" class="btn-secondary" onclick="showPopup()">Volunteer</a>
   </div>
 </section>
 
@@ -40,3 +40,9 @@ We look for neuroimagers of all modalities from all over the world at different 
 
 {% endblock %}
 </section>
+
+<script>
+function showPopup() {
+  alert("Thank you for your interest! Registration and volunteering will be announced soon. Please follow us on X @ohbm_open, our other social media channels or subscribe to our mailing list to stay updated. In the meantime, consider submitting a project proposal or a tutorial!");
+}
+</script>

@@ -340,6 +340,10 @@ nav a:focus,
   gap: 1rem;
 }
 
+.cta-buttons a {
+  cursor: pointer;
+}
+
 .btn-primary, .btn-secondary {
   font-family: var(--font-primary);
   padding: 1rem 2rem;
