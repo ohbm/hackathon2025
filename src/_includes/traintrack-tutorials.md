@@ -16,7 +16,7 @@
             {% for tutorial in tutorials.projectlist -%}
                 <div class="hackathon-project-card" data-tags="{{ tutorial.categories | join: ' ' }}">
                     <div class="hackathon-img-wrapper">
-                        <a href="https://github.com/ohbm/hackathon2024/issues/{{ tutorial.issue }}">
+                        <a href="https://github.com/ohbm/hackathon2025/issues/{{ tutorial.issue }}">
                             <img src="/_img/{{ tutorial.image }}" alt="Hackathon">
                         </a>
                     </div>
@@ -32,7 +32,7 @@
                     <div class="hackathon-hidden-details">
                         <div class="button-container">
                             <div class="btn-primary">
-                                <a href="https://github.com/ohbm/hackathon2024/issues/{{ tutorial.issue }}" target="_blank">
+                                <a href="https://github.com/ohbm/hackathon2025/issues/{{ tutorial.issue }}" target="_blank">
                                     <i class="fa-brands fa-github"></i> GitHub issue 
                                 </a>
                             </div>
