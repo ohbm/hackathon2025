@@ -14,34 +14,17 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  setup:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: List files in scripts directory
-        run: ls -la scripts
       - uses: actions/setup-node@v3
       - name: Install dependencies
         run: npm install
-
-  fetch-issues:
-    runs-on: ubuntu-latest
-    needs: setup
-    steps:
-      - uses: actions/checkout@v3
-      - name: Print Node.js version
-        run: node -v
-      - name: Check fetchIssues.js contents
-        run: cat scripts/fetchIssues.js
       - name: Run fetchIssues script
         run: node scripts/fetchIssues.js
         env:
           GH_AUTH: ${{ secrets.GH_AUTH }}
-
-  build:
-    runs-on: ubuntu-latest
-    needs: [setup, fetch-issues]
-    steps:
       - name: Build site
         run: npx @11ty/eleventy
       - uses: actions/upload-pages-artifact@v2
