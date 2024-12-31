@@ -28,6 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: setup
     steps:
+      - uses: actions/checkout@v3
       - name: Print Node.js version
         run: node -v
       - name: Check fetchIssues.js contents
