@@ -3,6 +3,7 @@ name: build 11ty site
 on:
   push:
     branches: ["main"]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -14,16 +15,19 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-      - name: Install dependencies & build
-        run: |
-          npm install
-          npx @11ty/eleventy
+      - name: Install dependencies
+        run: npm install
+      - name: Run fetchIssues script
+        run: node scripts/fetchIssues.js
+        env:
+          GH_AUTH: ${{ secrets.GH_AUTH }}
+      - name: Build site
+        run: npx @11ty/eleventy
       - uses: actions/upload-pages-artifact@v2
 
   deploy:

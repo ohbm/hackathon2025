@@ -1,8 +1,8 @@
 <section class="projects">
-    {% if tutorials.projectlist.length > 0 %}
+    {% if tutorials.tutoriallist.length > 0 %}
         <div id="filter-container">
             {% assign all_tags = "" %}
-            {% for tutorial in tutorials.projectlist %}
+            {% for tutorial in tutorials.tutoriallist %}
                 {% for tag in tutorial.categories %}
                     {% assign all_tags = all_tags | append: tag | append: "," %}
                 {% endfor %}
@@ -13,11 +13,11 @@
             {%- endfor %}
         </div>
         <div id="hackathon-container">
-            {% for tutorial in tutorials.projectlist -%}
+            {% for tutorial in tutorials.tutoriallist -%}
                 <div class="hackathon-project-card" data-tags="{{ tutorial.categories | join: ' ' }}">
                     <div class="hackathon-img-wrapper">
                         <a href="https://github.com/ohbm/hackathon2025/issues/{{ tutorial.issue }}">
-                            <img src="/_img/{{ tutorial.image }}" alt="Hackathon">
+                            <img src="/_img/{{ tutorial.image_path }}" alt="Tutorial">
                         </a>
                     </div>
                     <div class="hackathon-details animated hiding">
@@ -43,7 +43,7 @@
                             </div>
                         </div>
                         <div class="markdown-content">
-                            {{ tutorial.details | markdownify }}
+                            {{ tutorial.summary | markdownify }}
                         </div>
                     </div>
                 </div>

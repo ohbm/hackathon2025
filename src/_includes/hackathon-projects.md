@@ -17,7 +17,7 @@
                 <div class="hackathon-project-card" data-tags="{{ project.categories | join: ' ' }}">
                     <div class="hackathon-img-wrapper">
                         <a href="https://github.com/ohbm/hackathon2025/issues/{{ project.issue }}">
-                            <img src="/_img/{{ project.image }}" alt="Hackathon">
+                            <img src="/_img/{{ project.image_path }}" alt="Hackathon">
                         </a>
                     </div>
                     <div class="hackathon-details animated hiding">
@@ -43,7 +43,7 @@
                             </div>
                         </div>
                         <div class="markdown-content">
-                            {{ project.details | markdownify }}
+                            {{ project.summary | markdownify }}
                         </div>
                     </div>
                 </div>
