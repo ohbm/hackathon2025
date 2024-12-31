@@ -28,6 +28,10 @@ jobs:
     runs-on: ubuntu-latest
     needs: setup
     steps:
+      - name: Print Node.js version
+        run: node -v
+      - name: Check fetchIssues.js contents
+        run: cat scripts/fetchIssues.js
       - name: Run fetchIssues script
         run: node scripts/fetchIssues.js
         env:
