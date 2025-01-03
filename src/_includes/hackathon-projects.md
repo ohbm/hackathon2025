@@ -1,13 +1,7 @@
 <section class="projects">
-    {% if projects.projectlist.length > 0 %}
+    {% if projects.projectlist.size > 0 %}
         <div id="filter-container">
-            {% assign all_tags = "" %}
-            {% for project in projects.projectlist %}
-                {% for tag in project.categories %}
-                    {% assign all_tags = all_tags | append: tag | append: "," %}
-                {% endfor %}
-            {% endfor %}
-            {% assign unique_tags = all_tags | split: "," | uniq %}
+            {% assign unique_tags = projects.projectlist | map: 'categories' | join: ',' | split: ',' | uniq %}
             {% for tag in unique_tags -%}
                 <button class="filter-button" onclick="toggleTag(this, '{{ tag }}')" id="{{ tag }}">{{ tag }}</button>
             {%- endfor %}
