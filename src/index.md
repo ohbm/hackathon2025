@@ -43,6 +43,6 @@ We look for neuroimagers of all modalities from all over the world at different 
 
 <script>
 function showPopup() {
-  alert("Thank you for your interest! Registration and volunteering will be announced soon. Please follow us on X @ohbm_open, our other social media channels or subscribe to our mailing list to stay updated. In the meantime, consider submitting a project proposal or a tutorial!");
+  alert("Thank you for your interest! Registration and volunteering will be announced soon. Please follow us on X @ohbm_open and our other social media channels to stay updated. In the meantime, consider submitting a project proposal or a tutorial!");
 }
 </script>
