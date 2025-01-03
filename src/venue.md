@@ -5,7 +5,7 @@ title: Venue
 
 <div id="venue">
 
-## We Will Host the BrainHack at <span class="precinct-logo"><a href="https://precinctqld.com.au/"><img src="/_img/ThePrecinct_white.png" alt="The Precinct"></a></span>, the place where ambition comes to work!
+## We will host the BrainHack at <span class="precinct-logo"><a href="https://precinctqld.com.au/"><img src="/_img/ThePrecinct_white.png" alt="The Precinct"></a></span>, the place where ambition comes to work!
 
 **We are excited to announce that BrainHack 2025 will be held at The Precinct in Brisbane, Australia.** The Precinct is a vibrant innovation hub that brings together startups, scaleups, and established companies to drive innovation and growth.
 
