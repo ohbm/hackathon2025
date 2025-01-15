@@ -9,6 +9,7 @@
   --color-secondary: #00ffcc;
   --color-background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
   --color-text: #fff;
+  --box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
 }
 
 /* Global Styles */
@@ -90,7 +91,7 @@ header h1 :hover {
     position: absolute;
     top: 4em;
     right: 1em;
-    background: linear-gradient(to right, #ff6600, #ff0080);
+    background: var(--color-primary);
     padding: 1em;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
@@ -287,6 +288,12 @@ nav a:focus,
   outline-offset: 4px;
 }
 
+/* Improve Accessibility */
+:focus {
+  outline: 2px solid #0ff;
+  outline-offset: 4px;
+}
+
 /* Welcome Section */
 .welcome {
   padding: 3rem 2rem;
@@ -389,6 +396,7 @@ nav a:focus,
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeIn 0.5s ease-in-out;
 }
 
 .hackathon-project-card.hide {
@@ -650,7 +658,7 @@ footer {
   color: #fff;
   padding: 1em 2em;
   text-align: center;
-  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.5);
+  box-shadow: var(--box-shadow);
 }
 
 footer a {
@@ -748,7 +756,7 @@ footer a:hover {
   color: #fff;
   border: 2px solid #ff33cc;
   border-radius: 12px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  box-shadow: var(--box-shadow);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   width: 250px; /* Set a fixed width for uniformity */
   display: flex;
@@ -1213,4 +1221,14 @@ tr:hover td {
   position: sticky;
   left: 0;
   z-index: 1;
+}
+
+/* Add Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
