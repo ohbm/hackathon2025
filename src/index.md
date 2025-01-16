@@ -7,7 +7,8 @@ title: OHBM Hackathon 2025
   {% block content %}
   ## Welcome to the OHBM Hackathon 2025!
   
-  Join us in vibrant Brisbane for an unforgettable experience of innovation, collaboration, and learning. Together, let's shape the future of neuroimaging and open science!
+  Join us in vibrant Brisbane for an unforgettable experience of innovation, collaboration, and learning.
+  Together, let's shape the future of neuroimaging and open science!
   {% endblock %}
   <div class="cta-buttons">
     <a href="#" class="btn-primary" onclick="showPopup()">Register Now</a>
@@ -25,7 +26,8 @@ The OHBM Hackathon is organized by the Open Science Special Interest Group (SIG)
 
 ## What is OHBM?
 
-OHBM is the Organization for Human Brain Mapping. A society of scientists dedicated to mapping the brain using all neuroimaging technologies.
+OHBM is the Organization for Human Brain Mapping.
+A society of scientists dedicated to mapping the brain using all neuroimaging technologies.
 
 ## What is Brainhack?
 
@@ -33,9 +35,12 @@ An event where people get together to learn about open science and to collaborat
 
 The OHBM Brainhack is a chance for anyone interested in brains to work collaboratively on common projects and learn about new ideas and tools in open science.
 
-Brainhacks are not the typical academic conference. Here, attendees can actively take part in the program and learn from each other—sounds like something you would like? You can become a part of the event as a volunteer by filling out the form linked below. Many Brainhack projects might involve coding, but it is not a requirement, and you can contribute in most cases even without coding skills.
+Brainhacks are not the typical academic conference.
+Here, attendees can actively take part in the program and learn from each other—sounds like something you would like? You can become a part of the event as a volunteer by filling out the form linked above.
+Many Brainhack projects might involve coding, but it is not a requirement, and you can contribute in most cases even without coding skills.
 
-We look for neuroimagers of all modalities from all over the world at different career stages, and from all racial and gender backgrounds who are interested in working together to build an open science community. If you're new to the Brainhack community, please join us! If you belong to any minority groups, we want to reiterate that we want you here and are excited to have you join us!
+We look for neuroimagers of all modalities from all over the world at different career stages, and from all racial and gender backgrounds who are interested in working together to build an open science community.
+If you're new to the Brainhack community, please join us! If you belong to any minority groups, we want to reiterate that we want you here and are excited to have you join us!
 
 
 {% endblock %}
