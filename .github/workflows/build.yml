@@ -35,7 +35,7 @@ jobs:
     needs: build
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
         with:
           artifact_name: github-pages
     environment:
