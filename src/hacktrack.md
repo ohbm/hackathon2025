@@ -7,7 +7,7 @@ title: HackTrack
   <a href="https://flic.kr/p/p2RasG" target="_blank" rel="noopener">Andrew S.</a>
   distributed under a
   <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener"><i class="fab fa-creative-commons"></i><i class="fa-brands fa-creative-commons-by"></i><i class="fa-brands fa-creative-commons-sa"></i></a>
-  license.
+  CC BY-SA 2.0 license.
 </div>
 
 <!-- set background image -->
