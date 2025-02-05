@@ -2,7 +2,23 @@
 layout: default.md
 title: Venue
 ---
+<!-- Added floating credits for background photo -->
+<div class="photo-credits">
+  Background photo by
+  <a href="https://flic.kr/p/fhn7Pi" target="_blank" rel="noopener">Andrew S.</a>
+  distributed under a
+  <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener"><i class="fab fa-creative-commons"></i><i class="fa-brands fa-creative-commons-by"></i><i class="fa-brands fa-creative-commons-sa"></i></a>
+  license.
+</div>
 
+<!-- set background image -->
+<style>
+  body {
+    background: url('../_img/background_imgs/brisbane_7.jpg') no-repeat center center/cover;
+  }
+</style>
+
+<section class="content">
 <div id="venue">
 
 ## We will host the BrainHack at <span class="precinct-logo"><a href="https://precinctqld.com.au/"><img src="/_img/ThePrecinct_white.png" alt="The Precinct"></a></span>, the place where ambition comes to work!
@@ -66,3 +82,5 @@ Join us for an unforgettable experience of innovation, collaboration, and creati
 
 </div>
 
+
+</section>

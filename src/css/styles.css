@@ -17,7 +17,7 @@ body {
   font-family: var(--font-secondary);
   line-height: 1.1;
   padding: 0 2em;
-  background: var(--color-background);
+  /* background: var(--color-background); */
   color: var(--color-text);
 }
 
@@ -27,7 +27,6 @@ body.no-scroll {
 
 /* Header */
 header {
-  background: url('assets/header-image.jpg') no-repeat center center/cover;
   text-align: center;
   padding: 1em 1em; /* Adjust padding as needed */
   color: #fff; /* Ensure text stands out */
@@ -61,11 +60,11 @@ header h1 :hover {
     animation: none; /* No glitch effect on mobile */
   }
 
-  .welcome h2 {
+  .content h2 {
     font-size: 2rem;
   }
 
-  .welcome p {
+  .content p {
     font-size: 1rem;
   }
 
@@ -295,7 +294,7 @@ nav a:focus,
 }
 
 /* Welcome Section */
-.welcome {
+.content {
   padding: 3rem 2rem;
   background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
   color: #fff;
@@ -304,19 +303,19 @@ nav a:focus,
   margin: 2rem 2rem;
 }
 
-.welcome .markdown-body h1,
-.welcome .markdown-body h2,
-.welcome .markdown-body h3,
-.welcome .markdown-body h4,
-.welcome .markdown-body h5,
-.welcome .markdown-body h6 {
+.content .markdown-body h1,
+.content .markdown-body h2,
+.content .markdown-body h3,
+.content .markdown-body h4,
+.content .markdown-body h5,
+.content .markdown-body h6 {
   font-family: var(--font-primary);
   color: #ffcc33;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
   margin-bottom: 1rem;
 }
 
-.welcome .markdown-content p {
+.content .markdown-content p {
   font-family: var(--font-secondary);
   font-size: 1.25rem;
   line-height: 1.8;
@@ -357,11 +356,11 @@ nav a:focus,
 }
 
 @media (max-width: 768px) {
-  .welcome h2 {
+  .content h2 {
     font-size: 2rem;
   }
   
-  .welcome p {
+  .content p {
     font-size: 1rem;
   }
   
@@ -730,7 +729,7 @@ footer a:hover {
   nav, footer {
     padding: 0.5em 1em;
   }
-  .welcome, #projects {
+  .content, #projects {
     padding: 2em 1em;
     margin: 1em 0;
   }
@@ -859,12 +858,6 @@ footer a:hover {
 
 /* Venue Page Styles */
 #venue {
-  text-align: center;
-  padding: 2em;
-  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364); /* Match the global background */
-  border-radius: 12px;
-  margin: 2em 3em;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Add box shadow for consistency */
 }
 
 #venue h1, #venue h2, #venue h3 {
@@ -1249,4 +1242,16 @@ tr:hover td {
   background: rgba(0, 0, 0, 0.5);
   z-index: 900;
   display: none;
+}
+
+.photo-credits {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 0.5em 1em;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  z-index: 1000;
 }
