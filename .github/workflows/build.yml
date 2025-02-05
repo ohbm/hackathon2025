@@ -28,7 +28,7 @@ jobs:
           GH_AUTH: ${{ secrets.GH_AUTH }}
       - name: Build site
         run: npx @11ty/eleventy
-      - uses: actions/upload-pages-artifact@v2
+      - uses: actions/upload-pages-artifact@v3
 
   deploy:
     runs-on: ubuntu-latest
