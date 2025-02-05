@@ -410,21 +410,26 @@ nav a:focus,
 
 .hackathon-project-card.fullscreen {
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 7.5%;
+  left: 7.5%;
   height: 85%;
   width: 85%;
   z-index: 1000;
   background: linear-gradient(to bottom, #1a1a2e, #16213e);
   overflow-y: auto;
   display: grid;
-  box-shadow: 0 0 0 2000px rgba(0, 0, 0, 0.8);
+  box-shadow: none;
   grid-template-columns: 1fr 3fr 0.5fr; /* Two columns for image and details */
   grid-template-rows: auto auto; /* Rows for content and hidden details */
   gap: 1em; /* Add some spacing between items */
   box-sizing: border-box;
   padding: 1em;
+}
+
+
+.hackathon-project-card.fullscreen:hover {
+  transform: none;
+  box-shadow: 0 0 0 2000px rgba(0, 0, 0, 0.8);
 }
 
 .hackathon-project-card.fullscreen .hackathon-img-wrapper {
@@ -474,6 +479,7 @@ nav a:focus,
   align-self: center;
   z-index: 1001; /* Ensure it stays on top */
   max-width: 200px;
+  transform: scale(1.1);
 }
 
 .hackathon-img-wrapper {
