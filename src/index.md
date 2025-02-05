@@ -3,6 +3,8 @@ layout: default.md
 title: OHBM Hackathon 2025
 ---
 
+<div class="bg-image" style="background: url('_img/background_imgs/brisbane_1.jpg') no-repeat center center/cover;"></div>
+
 <!-- Added floating credits for background photo -->
 <div class="photo-credits">
   Background photo by
@@ -11,14 +13,6 @@ title: OHBM Hackathon 2025
   <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener"><i class="fab fa-creative-commons"></i><i class="fa-brands fa-creative-commons-by"></i><i class="fa-brands fa-creative-commons-sa"></i></a>
   CC BY-SA 2.0 license.
 </div>
-
-<!-- set background image -->
-<style>
-  body {
-    background: url('_img/background_imgs/brisbane_1.jpg') no-repeat center center/cover;
-  }
-</style>
-
 
 <section class="content">
   {% block content %}

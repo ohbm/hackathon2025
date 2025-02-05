@@ -19,5 +19,15 @@
 
   <!-- Include footer -->
   {% include 'footer.md' %}
+
+  <!-- Global scroll listener for background dimming -->
+  <script>
+    window.addEventListener('scroll', function() {
+      const scrollY = window.scrollY;
+      const maxScroll = window.innerHeight;
+      let opacity = Math.min((scrollY / maxScroll) * 2, 1);
+      document.querySelector('.bg-image').style.setProperty('--overlay-opacity', opacity);
+    });
+  </script>
 </body>
 </html>

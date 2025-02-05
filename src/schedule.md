@@ -2,6 +2,7 @@
 layout: default.md
 title: Schedule
 ---
+<div class="bg-image" style="background: url('../_img/background_imgs/brisbane_2.jpg') no-repeat center center/cover;"></div>
 
 <!-- Added floating credits for background photo -->
 <div class="photo-credits">
@@ -12,12 +13,6 @@ title: Schedule
   CC BY-SA 2.0 license.
 </div>
 
-<!-- set background image -->
-<style>
-  body {
-    background: url('../_img/background_imgs/brisbane_2.jpg') no-repeat center center/cover;
-  }
-</style>
 
 <section class="content">
 

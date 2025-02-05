@@ -2,6 +2,9 @@
 layout: default.md
 title: HackTrack
 ---
+<!-- Set unique background image using the variable -->
+<div class="bg-image" style="background: url('../_img/background_imgs/brisbane_3.jpg') no-repeat center center/cover;"></div>
+
 <div class="photo-credits">
   Background photo by
   <a href="https://flic.kr/p/p2RasG" target="_blank" rel="noopener">Andrew S.</a>
@@ -10,12 +13,6 @@ title: HackTrack
   CC BY-SA 2.0 license.
 </div>
 
-<!-- set background image -->
-<style>
-  body {
-    background: url('../_img/background_imgs/brisbane_3.jpg') no-repeat center center/cover;
-  }
-</style>
 
 <section class="content">
 
