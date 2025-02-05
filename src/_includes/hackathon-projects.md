@@ -53,6 +53,9 @@
     {% endif %}
 </section>
 
+<!-- Added overlay element to cover background when project details are open -->
+<div id="overlay"></div>
+
 <script>
 document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.reveal-button').forEach((button) => {
@@ -65,23 +68,32 @@ document.addEventListener('DOMContentLoaded', () => {
                     card.classList.remove('fullscreen');
                     button.innerHTML = '<i class="fa-solid fa-magnifying-glass"></i> Project details';
                     document.body.classList.remove('no-scroll'); // Remove no-scroll class
+                    document.getElementById('overlay').style.display = 'none';
                 } else {
                     details.classList.add('show');
                     card.classList.add('fullscreen');
                     button.innerHTML = '<i class="fa-solid fa-xmark"></i> Hide details';
                     document.body.classList.add('no-scroll'); // Add no-scroll class
+                    document.getElementById('overlay').style.display = 'block';
                 }
             }
         });
     });
+    // Hide details when clicking outside on background or on overlay
     document.addEventListener('click', function (event) {
         const fullscreenCard = document.querySelector('.hackathon-project-card.fullscreen');
-        if (fullscreenCard && !fullscreenCard.contains(event.target)) {
+        const overlay = document.getElementById('overlay');
+        if (fullscreenCard && (overlay.contains(event.target) || !fullscreenCard.contains(event.target))) {
             fullscreenCard.querySelector('.hackathon-hidden-details').classList.remove('show');
             fullscreenCard.classList.remove('fullscreen');
             fullscreenCard.querySelector('.reveal-button').innerHTML = '<i class="fa-solid fa-magnifying-glass"></i> Project details';
             document.body.classList.remove('no-scroll'); // Remove no-scroll class
+            overlay.style.display = 'none';
         }
+    });
+    // Prevent click events on the card from propagating to the document listener
+    document.querySelectorAll('.hackathon-project-card').forEach(card => {
+      card.addEventListener('click', e => e.stopPropagation());
     });
 });
 // Keep only one tag active at a time, the tags in the projects are also highlighted
