@@ -390,7 +390,7 @@ nav a:focus,
   display: inline-block;
   width: 100%;
   background: linear-gradient(to bottom, #1a1a2e, #16213e);
-  border: 2px solid #ff33cc;
+  border: 2px solid var(--color-primary);
   border-radius: 12px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
   overflow: hidden;
@@ -505,7 +505,7 @@ nav a:focus,
 
 .hackathon-details h3 {
   font-size: 1em;
-  color: #ff33cc;
+  color: var(--color-primary);
 }
 
 .hackathon-details ul {
@@ -631,7 +631,7 @@ nav a:focus,
   display: inline-block;
   margin: 0.5em;
   padding: 0.5em 1em;
-  background: #ff33cc;
+  background: var(--color-primary);
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -758,7 +758,7 @@ footer a:hover {
   padding: 1.5rem;
   background: linear-gradient(to top, #1a1a2e, #16213e);
   color: #fff;
-  border: 2px solid #ff33cc;
+  border: 2px solid var(--color-primary);
   border-radius: 12px;
   box-shadow: var(--box-shadow);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -778,7 +778,7 @@ footer a:hover {
   height: 100px;
   border-radius: 50%;
   margin-bottom: 1rem;
-  border: 3px solid #ff33cc;
+  border: 3px solid var(--color-primary);
 }
 
 .placeholder-photo {
@@ -786,19 +786,19 @@ footer a:hover {
   height: 100px;
   border-radius: 50%;
   margin-bottom: 1rem;
-  border: 3px solid #ff33cc;
+  border: 3px solid var(--color-primary);
   display: flex;
   align-items: center;
   justify-content: center;
   background: #1a1a2e;
-  color: #ff33cc;
+  color: var(--color-primary);
   font-size: 2rem;
 }
 
 .team-member h3 {
   margin: 0.5rem 0;
   font-family: var(--font-primary);
-  color: #ff33cc;
+  color: var(--color-primary);
 }
 
 .team-member p {
@@ -894,7 +894,7 @@ footer a:hover {
 }
 
 #venue h2 .precinct-logo a img:hover {
-  filter: drop-shadow(0 0 0.75rem #ff33cc);
+  filter: drop-shadow(0 0 0.75rem var(--color-primary));
 }
 
 @media (max-width: 768px) {
@@ -981,7 +981,7 @@ table {
 th, td {
   padding: 1rem;
   text-align: center;
-  border: 1px solid #ff33cc;
+  border: 1px solid var(--color-primary);
 }
 
 th {
@@ -1189,7 +1189,7 @@ tr:hover td {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ff33cc;
+  background: var(--color-primary);
   border-radius: 6px;
 }
 
