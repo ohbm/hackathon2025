@@ -296,7 +296,7 @@ nav a:focus,
 /* Welcome Section */
 .content {
   padding: 3rem 2rem;
-  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+  background: linear-gradient(to bottom, #0f2027ee, #203a43, #2c5364ee);
   color: #fff;
   border-radius: 12px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -659,7 +659,7 @@ nav a:focus,
 
 /* Footer */
 footer {
-  background: linear-gradient(to right, #ff33cc, #ff0066);
+  background: linear-gradient(to right, #ff33ccdd, #ff0066);
   color: #fff;
   padding: 1em 2em;
   text-align: center;
@@ -749,7 +749,6 @@ footer a:hover {
   flex-wrap: wrap;
   gap: 1.5rem;
   padding: 2rem;
-  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
   border-radius: 8px;
   justify-content: center;
 }
@@ -1010,7 +1009,6 @@ tr:hover td {
   margin: 2em auto;
   overflow: hidden;
   border-radius: 12px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
 }
 
 .carousel-inner {
@@ -1116,9 +1114,7 @@ tr:hover td {
   align-items: center;
   gap: 3em;
   padding: 2em;
-  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
   border-radius: 12px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
   margin: 2em 3em;
 }
 
