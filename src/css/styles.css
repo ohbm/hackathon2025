@@ -361,19 +361,20 @@ nav a:focus,
   color: var(--color-text);
   border-radius: 8px;
   transition: transform 0.3s ease, background 0.3s ease;
+  border: 2px solid var(--color-secondary);
 }
 
-.btn-primary {
+/* .btn-primary {
   background: linear-gradient(to right, #ff6600, #ff9900);
 }
 
 .btn-secondary {
   background: linear-gradient(to right, #00cc99, #009966);
-}
+} */
 
 .btn-primary:hover, .btn-secondary:hover {
   transform: scale(1.1);
-  background: linear-gradient(to right, #ff9900, #ffcc00);
+  /* background: linear-gradient(to right, #ff9900, #ffcc00); */
 }
 
 @media (max-width: 768px) {
@@ -965,7 +966,8 @@ footer a:hover {
 .submit-projects-button {
   display: inline-block;
   padding: 1em 2em;
-  background: linear-gradient(to right, #ff6600, #ff9900);
+  /* background: linear-gradient(to right, #ff6600, #ff9900); */
+  border: 1px solid var(--color-secondary);
   color: #fff;
   text-decoration: none;
   border-radius: 8px;
@@ -978,7 +980,7 @@ footer a:hover {
 
 .submit-projects-button:hover {
   transform: scale(1.1);
-  background: linear-gradient(to right, #ff9900, #ffcc00);
+  /* background: linear-gradient(to right, #ff9900, #ffcc00); */
 }
 
 .submit-projects-container {
