@@ -30,6 +30,7 @@ header {
   text-align: center;
   padding: 1em 1em; /* Adjust padding as needed */
   color: #fff; /* Ensure text stands out */
+  background: #0f202755;
 }
 
 header h1 {
