@@ -1,5 +1,7 @@
 <header>
   <h1><span>OHBM Hackathon 2025</span></h1>
+  <h2><span>21-23 June</span><span>Brisbane, Australia</span></h2>
+</div>
 </header>
 <nav>
   <span class="menu-icon" aria-label="Open menu">&#9776;</span>
