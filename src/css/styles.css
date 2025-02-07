@@ -1223,7 +1223,6 @@ tr:hover td {
 /* Schedule Table Styles */
 .schedule-container {
   overflow-x: auto;
-  margin: 2rem 0;
 }
 
 .schedule-container table {
