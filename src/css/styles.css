@@ -770,12 +770,13 @@ footer a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  padding: 2rem;
+  padding: 2rem 0;
   border-radius: 8px;
   justify-content: center;
 }
 
 .team-member {
+  box-sizing: border-box;
   text-align: center;
   padding: 1.5rem;
   background: linear-gradient(to top, #1a1a2e, #16213e);
