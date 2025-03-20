@@ -66,7 +66,7 @@ If you're new to the Brainhack community, please join us! If you belong to any m
 
 <script>
   function showPopup() {
-    if (confirm("You are about to leave the OHBM Hackathon website and be redirected to the OHBM 2025 Annual Meeting website. Do you want to continue?")) {
+    if (confirm("You are about to leave the OHBM Hackathon website and be redirected to the registration website. Do you want to continue?")) {
       window.location.href = "https://humanbrainmapping.org/25Brainhack/";
     }
   }
