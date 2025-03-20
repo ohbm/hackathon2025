@@ -20,10 +20,17 @@ title: OHBM Hackathon 2025
   
   Join us in vibrant Brisbane for an unforgettable experience of innovation, collaboration, and learning.
   Together, let's shape the future of neuroimaging and open science!
+
+  What is new this year? For the first time, this year's BrainHack will feature the [NeuroDesk](https://www.neurodesk.org/) Workshop  & the [Neuroimaging Statistics Workshop (check the program here!)](https://sites.google.com/view/nsw2025).
+  Check the specific options that include participation in the NeuroDesk Workshop and the Neuroimaging Statistics Workshop is required.
+
+  The OHBM Hackathon will take place from June 21-23, 2025, at the Precinct (check the [venue](venue)).
+  We invite interested participants to register as soon as possible to secure their spot.
+  We also encourage participants interested in volunteering to state their interest in the registration form linked below.
+
   {% endblock %}
   <div class="cta-buttons">
-    <a href="#" class="btn-primary" onclick="showPopup()">Register Now</a>
-    <a href="#" class="btn-secondary" onclick="showPopup()">Volunteer</a>
+    <a href="#" class="btn-primary" onclick="showPopup()">Register Now & Join the Action!</a>
   </div>
 </section>
 
@@ -58,7 +65,9 @@ If you're new to the Brainhack community, please join us! If you belong to any m
 </section>
 
 <script>
-function showPopup() {
-  alert("Thank you for your interest! Registration and volunteering will be announced soon. Please follow us on X @ohbm_open and our other social media channels to stay updated. In the meantime, consider submitting a project proposal or a tutorial!");
-}
+  function showPopup() {
+    if (confirm("You are about to leave the OHBM Hackathon website and be redirected to the OHBM 2025 Annual Meeting website. Do you want to continue?")) {
+      window.location.href = "https://humanbrainmapping.org/25Brainhack/";
+    }
+  }
 </script>
