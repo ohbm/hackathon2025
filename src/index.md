@@ -22,8 +22,11 @@ title: OHBM Hackathon 2025
   Together, let's shape the future of neuroimaging and open science!
 
   What is new this year? For the first time, this year's BrainHack will feature the [NeuroDesk](https://www.neurodesk.org/) Workshop  & the [Neuroimaging Statistics Workshop (check the program here!)](https://sites.google.com/view/nsw2025).
-  Check the specific options that include participation in the NeuroDesk Workshop and the Neuroimaging Statistics Workshop is required.
+  **The NeuroDesk Workshop** will introduce participants to NeuroDesk, an open-source flexible and scalable data analysis environment for reproducible neuroimaging.
+  **The Neuroimaging Statistics Workshop** will showcase emerging brain image processing & analysis techniques through expert lectures, as well as networking opportunities for students and researchers.
 
+  To ensure your participation in either or both workshops, *please select the appropriate option during registration*.
+  
   The OHBM Hackathon will take place from June 21-23, 2025, at the Precinct (check the [venue](venue)).
   We invite interested participants to register as soon as possible to secure their spot.
   We also encourage participants interested in volunteering to state their interest in the registration form linked below.
