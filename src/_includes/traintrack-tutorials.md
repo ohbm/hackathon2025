@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (details.classList.contains('show')) {
                     details.classList.remove('show');
                     card.classList.remove('fullscreen');
-                    button.innerHTML = '<i class="fa-solid fa-magnifying-glass"></i> Turorial details';
+                    button.innerHTML = '<i class="fa-solid fa-magnifying-glass"></i> Tutorial details';
                     document.body.classList.remove('no-scroll'); // Remove no-scroll class
                     document.getElementById('overlay').style.display = 'none';
                 } else {
