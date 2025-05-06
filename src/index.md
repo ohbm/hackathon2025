@@ -17,7 +17,11 @@ title: OHBM Hackathon 2025
 <section class="content">
   {% block content %}
   ## Welcome to the OHBM Hackathon 2025!
-  
+
+  <div class="cta-buttons">
+    <a href="#" class="btn-primary" onclick="showPopup()">Register Now & Join the Action!</a>
+  </div>
+
   Join us in vibrant Brisbane for an unforgettable experience of innovation, collaboration, and learning.
   Together, let's shape the future of neuroimaging and open science!
 
@@ -29,12 +33,9 @@ title: OHBM Hackathon 2025
   
   The OHBM Hackathon will take place from June 21-23, 2025, at the Precinct (check the [venue](venue)).
   We invite interested participants to register as soon as possible to secure their spot.
-  We also encourage participants interested in volunteering to state their interest in the registration form linked below.
+  We also encourage participants interested in volunteering to state their interest in the registration form linked above.
 
   {% endblock %}
-  <div class="cta-buttons">
-    <a href="#" class="btn-primary" onclick="showPopup()">Register Now & Join the Action!</a>
-  </div>
 </section>
 
 <section class="content">
