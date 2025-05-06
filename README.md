@@ -41,8 +41,8 @@ The website is structured as follows:
     - `projects.yaml`: the HackTrack projects.
     - `tutorial.yaml`: the TrainTrack tutorials.
     - `team.yaml`: the team.
-    - `_img/`: Contains the images for the website.
-    - `css/`: Contains the styles for the website.
+  - `_img/`: Contains the images for the website.
+  - `css/`: Contains the styles for the website.
   - `conduct.md`: The OHBM Code of Conduct.
   - `contact.md`: The contact information for the event.
   - `hacktrack.md`: The HackTrack page.
