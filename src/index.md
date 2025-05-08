@@ -46,6 +46,19 @@ title: OHBM Hackathon 2025
 
 The OHBM Hackathon is organized by the Open Science Special Interest Group (SIG) with the support of the Organization for Human Brain Mapping (OHBM) and generous sponsors.
 
+  <section id="sponsors">
+    <h2>Our Proud Sponsors</h2>
+    <p>We are immensely grateful for the generous contributions of our sponsors. Their support makes our event possible and helps our community to achieve greater heights. Our most sincere thanks goes to:</p>
+    <div class="sponsor-logos">
+      {% for sponsor in sponsors.sponsorlist -%}
+        <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer">
+          <img src="/_img/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo" title="{{ sponsor.name }}">
+        </a>
+        {{sponsor.name}} 
+      {% endfor -%}
+    </div>
+  </section>
+
 ## What is OHBM?
 
 OHBM is the Organization for Human Brain Mapping.
