@@ -2,3 +2,6 @@ sponsorlist:
   - name: NeuroDesk
     logo: neurodesk_logo.svg
     url: https://www.neurodesk.org/
+  - name: Cortical Labs
+    logo: cortical_labs_logo.svg
+    url: https://www.corticallabs.com/

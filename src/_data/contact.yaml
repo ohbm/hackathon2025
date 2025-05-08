@@ -15,3 +15,7 @@ methods:
     icon: fab fa-discord
     url: https://discord.gg/Vqr6WYwdQ2
     delay: .3s
+  - label: Bluesky
+    icon: fab fa-bluesky
+    url: https://bsky.app/profile/ohbmossig.bsky.social
+    delay: .4s
