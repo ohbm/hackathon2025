@@ -8,7 +8,7 @@ require('dotenv').config();
 
 async function fetchGhIssues() {
     const GH_AUTH = process.env.GH_AUTH;
-    const REPO = 'ohbm/hackathon2024';
+    const REPO = 'ohbm/hackathon2025';
     const ISSUE_LABEL_PROJECT = ':rocket: HackTrack Project';
     const ISSUE_LABEL_TUTORIAL = '🎓 TrainTrack Tutorial';
     const ISSUE_READY_LABEL = ':mag: Review: Good to go ✅';
