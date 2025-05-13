@@ -117,9 +117,9 @@ async function fetchGhIssues() {
 
                 const labels = issue.labels.map(label => label.name);
                 // keep labels that start with ':label:' or 🌐, remove that from the resulting labels
-                filteredLabels = labels.filter(label => label.startsWith(':label: ') || label.startsWith('🌐 '))
-                issueInfo.categories = filteredLabels.map(label => label.replace(':label: ', '').replace('🌐 ', ''));
-                
+                filteredLabels = labels.filter(label => label.startsWith(':label: ') || label.startsWith('🌐 ') || label.startsWith(':computer: '))
+                issueInfo.categories = filteredLabels.map(label => label.replace(':label: ', '').replace('🌐 ', '').replace(':computer: ', ''));
+
             } catch (err) {
                 console.error(`Error processing issue ${issue.number}:`, err.message);
             }
