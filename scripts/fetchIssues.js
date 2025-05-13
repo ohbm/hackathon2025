@@ -82,7 +82,6 @@ async function fetchGhIssues() {
                 }
 
                 issueInfo.title = issue.title;
-                issueInfo.link = issue.html_url;
                 issueInfo.details = issue.body;
                 issueInfo.issue = issue.number;
                 issueInfo.leads = issueInfo.leads || [];
