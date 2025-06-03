@@ -707,6 +707,12 @@ footer a:hover {
   text-align: center;
 }
 
+#sponsorsindex {
+  padding: 2em 0;
+  color: #fff;
+  text-align: center;
+}
+
 #sponsors h2 {
   margin-bottom: 1em;
 }
