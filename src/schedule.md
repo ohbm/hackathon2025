@@ -93,43 +93,39 @@ title: Schedule
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const cells = document.querySelectorAll('.schedule-container td');
-  
+
+  // Define keyword -> class mappings
+  const activityMap = [
+    { keywords: ['BrainHack 101'], className: 'activity-brainhack' },
+    { keywords: ['Welcome & Info'], className: 'activity-welcome' },
+    { keywords: ['Project pitch'], className: 'activity-pitch' },
+    { keywords: ['Opening session'], className: 'activity-opening' },
+    { keywords: ['Project reports'], className: 'activity-reports' },
+    { keywords: ['Closing remarks'], className: 'activity-closing' },
+    { keywords: ['Hacktrack / Sponsor sessions'], className: 'activity-sponsor' },
+    { keywords: ['NeuroDesk Workshop'], className: 'activity-neurodesk' },
+    { keywords: ['Neuroimaging Statistics Workshop'], className: 'activity-neurostat' },
+    { keywords: ['TrainTrack'], className: 'activity-traintrack' },
+    { keywords: ['Hacktrack'], className: 'activity-hacktrack', exclude: ['Sponsor'] },
+    { keywords: ['Lunch', 'Coffee break'], className: 'activity-break' }
+  ];
+
   cells.forEach(cell => {
     const text = cell.textContent.trim();
-    
-    // Only apply styling to cells with actual content
-    if (text.length === 0) {
-      return; // Skip empty cells
-    }
-    
-    if (text.includes('BrainHack 101')) {
-      cell.classList.add('activity-brainhack');
-    } else if (text.includes('Welcome & Info')) {
-      cell.classList.add('activity-welcome');
-    } else if (text.includes('Project pitch')) {
-      cell.classList.add('activity-pitch');
-    } else if (text.includes('Opening session')) {
-      cell.classList.add('activity-opening');
-    } else if (text.includes('Project reports')) {
-      cell.classList.add('activity-reports');
-    } else if (text.includes('Closing remarks')) {
-      cell.classList.add('activity-closing');
-    } else if (text.includes('Hacktrack / Sponsor sessions')) {
-      cell.classList.add('activity-sponsor');
-    } else if (text.includes('NeuroDesk Workshop')) {
-      cell.classList.add('activity-neurodesk');
-    } else if (text.includes('Neuroimaging Statistics Workshop')) {
-      cell.classList.add('activity-neurostat');
-    } else if (text.includes('TrainTrack')) {
-      cell.classList.add('activity-traintrack');
-    } else if (text.includes('Hacktrack') && !text.includes('Sponsor')) {
-      cell.classList.add('activity-hacktrack');
-    } else if (text.includes('Lunch') || text.includes('Coffee break')) {
-      cell.classList.add('activity-break');
+    if (text.length === 0) return;
+
+    for (const entry of activityMap) {
+      const matches = entry.keywords.some(keyword => text.includes(keyword));
+      const excludes = entry.exclude?.some(exclude => text.includes(exclude)) ?? false;
+      if (matches && !excludes) {
+        cell.classList.add(entry.className);
+        break; // Stop at the first match
+      }
     }
   });
 });
 </script>
+
 
 # Schedule
 
