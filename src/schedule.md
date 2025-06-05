@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
     { keywords: ['Opening session'], className: 'activity-opening' },
     { keywords: ['Project reports'], className: 'activity-reports' },
     { keywords: ['Closing remarks'], className: 'activity-closing' },
-    { keywords: ['Hacktrack / Sponsor sessions'], className: 'activity-sponsor' },
+    { keywords: ['Talks / Hacktrack / Traintrack'], className: 'activity-sponsor' },
     { keywords: ['NeuroDesk Workshop'], className: 'activity-neurodesk' },
     { keywords: ['Neuroimaging Statistics Workshop'], className: 'activity-neurostat' },
     { keywords: ['TrainTrack'], className: 'activity-traintrack' },
@@ -139,20 +139,20 @@ document.addEventListener('DOMContentLoaded', function() {
 | 09:30 - 10:00 | Project pitch | | | |
 | 10:00 - 10:30 | Project pitch | | | |
 | 10:30 - 11:00 | Project pitch | | | |
-| 11:00 - 11:30 | Hacktrack / Sponsor sessions | | | NeuroDesk Workshop |
-| 11:30 - 12:00 | Hacktrack / Sponsor sessions | | | NeuroDesk Workshop |
+| 11:00 - 11:30 | Talks / Hacktrack / Traintrack | | | NeuroDesk Workshop |
+| 11:30 - 12:00 | Talks / Hacktrack / Traintrack | | | NeuroDesk Workshop |
 | 12:00 - 12:30 | Lunch | Lunch | Lunch | Lunch |
 | 12:30 - 13:00 | Lunch | Lunch | Lunch | Lunch |
-| 13:00 - 13:30 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | NeuroDesk Workshop |
-| 13:30 - 14:00 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | NeuroDesk Workshop |
-| 14:00 - 14:30 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | NeuroDesk Workshop |
-| 14:30 - 15:00 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | NeuroDesk Workshop |
+| 13:00 - 13:30 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | NeuroDesk Workshop |
+| 13:30 - 14:00 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | NeuroDesk Workshop |
+| 14:00 - 14:30 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | NeuroDesk Workshop |
+| 14:30 - 15:00 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | NeuroDesk Workshop |
 | 15:00 - 15:30 | Coffee break | Coffee break | Coffee break | Coffee break |
-| 15:30 - 16:00 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | NeuroDesk Workshop |
-| 16:00 - 16:30 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | NeuroDesk Workshop |
-| 16:30 - 17:00 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | NeuroDesk Workshop |
-| 17:00 - 17:30 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | NeuroDesk Workshop |
-| 17:30 - 19:00 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | NeuroDesk Workshop |
+| 15:30 - 16:00 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | NeuroDesk Workshop |
+| 16:00 - 16:30 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | NeuroDesk Workshop |
+| 16:30 - 17:00 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | NeuroDesk Workshop |
+| 17:00 - 17:30 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | NeuroDesk Workshop |
+| 17:30 - 19:00 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | NeuroDesk Workshop |
 
 
 ## Day 2 - June 22, 2025
@@ -162,23 +162,23 @@ document.addEventListener('DOMContentLoaded', function() {
 | 08:00 - 08:30 | | | | |
 | 08:30 - 09:00 | | | | |
 | 09:00 - 09:30 | Opening session | Hacktrack | Hacktrack | TrainTrack / Unconferences |
-| 09:30 - 10:00 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | TrainTrack / Unconferences |
-| 10:00 - 10:30 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | TrainTrack / Unconferences |
-| 10:30 - 11:00 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | TrainTrack / Unconferences |
-| 11:00 - 11:30 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | TrainTrack / Unconferences |
-| 11:30 - 12:00 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | TrainTrack / Unconferences |
+| 09:30 - 10:00 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | TrainTrack / Unconferences |
+| 10:00 - 10:30 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | TrainTrack / Unconferences |
+| 10:30 - 11:00 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | TrainTrack / Unconferences |
+| 11:00 - 11:30 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | TrainTrack / Unconferences |
+| 11:30 - 12:00 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | TrainTrack / Unconferences |
 | 12:00 - 12:30 | Lunch | Lunch | Lunch | Lunch |
 | 12:30 - 13:00 | Lunch | Lunch | Lunch | Lunch |
-| 13:00 - 13:30 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
-| 13:30 - 14:00 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
-| 14:00 - 14:30 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
-| 14:30 - 15:00 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
+| 13:00 - 13:30 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
+| 13:30 - 14:00 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
+| 14:00 - 14:30 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
+| 14:30 - 15:00 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
 | 15:00 - 15:30 | Coffee break | Coffee break | Coffee break | Neuroimaging Statistics Workshop |
-| 15:30 - 16:00 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
-| 16:00 - 16:30 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
-| 16:30 - 17:00 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
-| 17:00 - 17:30 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | TrainTrack / Unconferences |
-| 17:30 - 19:00 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | TrainTrack / Unconferences |
+| 15:30 - 16:00 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
+| 16:00 - 16:30 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
+| 16:30 - 17:00 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
+| 17:00 - 17:30 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | TrainTrack / Unconferences |
+| 17:30 - 19:00 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | TrainTrack / Unconferences |
 
 
 ## Day 3 - June 23, 2025
@@ -188,18 +188,18 @@ document.addEventListener('DOMContentLoaded', function() {
 | 08:00 - 08:30 | | | | |
 | 08:30 - 09:00 | | | | |
 | 09:00 - 09:30 | Opening session | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
-| 09:30 - 10:00 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
-| 10:00 - 10:30 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
-| 10:30 - 11:00 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
-| 11:00 - 11:30 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
-| 11:30 - 12:00 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
+| 09:30 - 10:00 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
+| 10:00 - 10:30 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
+| 10:30 - 11:00 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
+| 11:00 - 11:30 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
+| 11:30 - 12:00 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | Neuroimaging Statistics Workshop |
 | 12:00 - 12:30 | Lunch | Lunch | Lunch | Neuroimaging Statistics Workshop |
 | 12:30 - 13:00 | Lunch | Lunch | Lunch | Lunch |
-| 13:00 - 13:30 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | TrainTrack / Unconferences |
-| 13:30 - 14:00 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | TrainTrack / Unconferences |
-| 14:00 - 14:30 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | TrainTrack / Unconferences |
-| 14:30 - 15:00 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | TrainTrack / Unconferences |
-| 15:00 - 15:30 | Hacktrack / Sponsor sessions | Hacktrack | Hacktrack | TrainTrack / Unconferences |
+| 13:00 - 13:30 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | TrainTrack / Unconferences |
+| 13:30 - 14:00 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | TrainTrack / Unconferences |
+| 14:00 - 14:30 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | TrainTrack / Unconferences |
+| 14:30 - 15:00 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | TrainTrack / Unconferences |
+| 15:00 - 15:30 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | TrainTrack / Unconferences |
 | 15:30 - 16:00 | Coffee break | Coffee break | Coffee break | Coffee break |
 | 16:00 - 16:30 | Project reports | | | |
 | 16:30 - 17:00 | Project reports | | | |
