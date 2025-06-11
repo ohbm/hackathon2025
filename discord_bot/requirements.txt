@@ -1,0 +1,15 @@
+# Discord Bot Requirements for OHBM Brainhack 2025
+
+# Discord API library
+discord.py>=2.3.2
+
+# YAML parsing for project data
+PyYAML>=6.0.1
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Standard library packages (included with Python)
+# asyncio - async/await support
+# logging - logging functionality 
+# os - operating system interface 
