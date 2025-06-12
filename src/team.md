@@ -26,4 +26,8 @@ title: Team
 
 {% include "team.liquid", members: team.ossig %}
 
+## Volunteers
+
+{% include "team.liquid", members: team.volunteers %}
+
 </section>

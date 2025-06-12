@@ -8,30 +8,65 @@ members:
     x: https://twitter.com/heblingvieira
     github: https://github.com/bhvieira
     homepage: https://bhvieira.github.io
+    photo: bruno_vieira1.jpg
   - name: Ashley York
     role: Hackathon Co-Chair Elect
   - name: Thuy Dao
     role: Hackathon Co-Chair Elect
   - name: Sarah Khalife
     role: Local Liaison
+    x: https://x.com/SarahKhalife3
+    photo: sarah_khalife1.jpg
 ossig:
   - name: Stefano Moia
     role: Chair
+    x: https://x.com/SteMoia
+    photo: stefano_moia1.jpg
   - name: Wei Zhang
     role: Secretary
+    x: https://x.com/neurozzang
+    photo: wei_zhang1.jpg
   - name: Naomi Gaggi
     role: Treasurer
+    x: https://x.com/NaomiGaggiS
+    photo: naomi_lgaggi1.jpg
   - name: Ju-Chi Yu
     role: Open Science Room Chair
+    x: https://x.com/juchiyu
+    photo: ju-chi_yu1.jpg
   - name: Povilas Karvelis
     role: Hybridization Chair
+    x: https://x.com/KarvelisPovilas
+    photo: povilas_karvelis1.jpg
   - name: Terra Lee
     role: Community Liaison Officer
+    photo: terra_lee1.jpg
+    x: https://x.com/terradactylee
   - name: Muriah Wheelock
     role: Chair Elect
+    photo: muriah_heelock1.jpg
+  - name: Eva Van Heese
+    role: Secretary Elect
   - name: Veronica Diveica
     role: Treasurer Elect
+    x: https://x.com/DiveicaV
+    photo: veronica_diveica1.jpg
   - name: James Kent
     role: Open Science Room Chair Elect
+    x: https://x.com/SudoNeuroSci
   - name: Sungmin Ha
     role: Hybridization Chair Elect
+    x: https://x.com/SungMinHa1992
+    photo: sungmin_ha1.jpg
+  - name: Yi-Ju Lee
+    role: Liaison from the Council
+    x: https://twitter.com/jean890203
+    photo: yiju_lee1.jpg
+volunteers:
+  - name: SungHo Lee
+    x: https://x.com/shleevet
+    photo: SungHo_Lee1.jpg
+  - name: Sina Mansour
+    photo: sina_mansour1.jpg
+  - name: Yohan Wards
+    x: https://x.com/YohanWards
