@@ -19,7 +19,7 @@ title: OHBM Hackathon 2025
   ## Welcome to the OHBM Hackathon 2025!
 
   <div class="cta-buttons">
-    <a href="#" class="btn-primary" onclick="showPopup()">Register Now & Join the Action!</a>
+    <a href="#" class="btn-primary" onclick="showPopup()">Registration ended on June 14th, 2025</a>
   </div>
 
   Join us in vibrant Brisbane for an unforgettable experience of innovation, collaboration, and learning.
@@ -32,8 +32,8 @@ title: OHBM Hackathon 2025
   To ensure your participation in either or both workshops, *please select the appropriate option during registration*.
   
   The OHBM Hackathon will take place from June 21-23, 2025, at the Precinct (check the [venue](venue)).
-  We invite interested participants to register as soon as possible to secure their spot.
-  We also encourage participants interested in volunteering to state their interest in the registration form linked above.
+  Registration has ended as of June 14th, 2025.
+  We look forward to welcoming all registered participants in Brisbane!
 
   {% endblock %}
 </section>
@@ -79,10 +79,3 @@ If you're new to the Brainhack community, please join us! If you belong to any m
 {% endblock %}
 </section>
 
-<script>
-  function showPopup() {
-    if (confirm("You are about to leave the OHBM Hackathon website and be redirected to the registration website. Do you want to continue?")) {
-      window.location.href = "https://humanbrainmapping.org/25Brainhack/";
-    }
-  }
-</script>
