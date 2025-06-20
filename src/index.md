@@ -51,8 +51,8 @@ The OHBM Hackathon is organized by the Open Science Special Interest Group (SIG)
       {% for sponsor in sponsors.sponsorlist -%}
         <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer">
           <img src="/_img/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo" title="{{ sponsor.name }}">
+          <span>{{sponsor.name}}</span>
         </a>
-        {{sponsor.name}} 
       {% endfor -%}
     </div>
   </section>
