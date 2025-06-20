@@ -139,8 +139,8 @@ document.addEventListener('DOMContentLoaded', function() {
 | 09:30 - 10:00 | Project pitch | | | |
 | 10:00 - 10:30 | Project pitch | | | |
 | 10:30 - 11:00 | Project pitch | | | |
-| 11:00 - 11:30 | Talks / Hacktrack / Traintrack | | | NeuroDesk Workshop |
-| 11:30 - 12:00 | Talks / Hacktrack / Traintrack | | | NeuroDesk Workshop |
+| 11:00 - 11:30 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | NeuroDesk Workshop |
+| 11:30 - 12:00 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | NeuroDesk Workshop |
 | 12:00 - 12:30 | Lunch | Lunch | Lunch | Lunch |
 | 12:30 - 13:00 | Lunch | Lunch | Lunch | Lunch |
 | 13:00 - 13:30 | Talks / Hacktrack / Traintrack | Hacktrack | Hacktrack | NeuroDesk Workshop |
