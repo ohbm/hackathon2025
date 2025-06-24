@@ -435,12 +435,49 @@ class ProjectsClient(commands.Bot):
             logger.error(f"Invalid project object for emoji {payload.emoji}")
             return
             
-        if add:
-            await user.add_roles(role)
-            logger.info(f"Added role {role.name} to user {user.display_name}")
-        else:
-            await user.remove_roles(role)
-            logger.info(f"Removed role {role.name} from user {user.display_name}")
+        # Debug: Check current user roles before operation
+        user_roles_before = [r.name for r in user.roles]
+        logger.info(f"User {user.display_name} roles before: {user_roles_before}")
+        logger.info(f"Attempting to {'add' if add else 'remove'} role: {role.name}")
+        logger.info(f"Bot permissions: {self.roles_channel.guild.me.guild_permissions.manage_roles}")
+        logger.info(f"Bot role position: {self.roles_channel.guild.me.top_role.position}")
+        logger.info(f"Target role position: {role.position}")
+            
+        try:
+            if add:
+                await user.add_roles(role)
+                logger.info(f"API call completed for adding role {role.name} to user {user.display_name}")
+            else:
+                await user.remove_roles(role)
+                logger.info(f"API call completed for removing role {role.name} from user {user.display_name}")
+                
+            # Debug: Check user roles after operation by getting fresh member data
+            try:
+                # Get fresh member data from the guild
+                fresh_user = await self.roles_channel.guild.fetch_member(user.id)
+                user_roles_after = [r.name for r in fresh_user.roles]
+                logger.info(f"User {user.display_name} roles after: {user_roles_after}")
+                
+                # Verify if the operation actually worked
+                if add and role.name in user_roles_after:
+                    logger.info(f"✅ SUCCESS: Role {role.name} was actually added to {user.display_name}")
+                elif add and role.name not in user_roles_after:
+                    logger.error(f"❌ FAILED: Role {role.name} was NOT added to {user.display_name} despite no exception")
+                elif not add and role.name not in user_roles_after:
+                    logger.info(f"✅ SUCCESS: Role {role.name} was actually removed from {user.display_name}")
+                elif not add and role.name in user_roles_after:
+                    logger.error(f"❌ FAILED: Role {role.name} was NOT removed from {user.display_name} despite no exception")
+            except Exception as fetch_error:
+                logger.warning(f"Could not verify role assignment: {fetch_error}")
+                
+        except discord.errors.Forbidden as e:
+            logger.error(f"❌ Permission denied: Cannot {'add' if add else 'remove'} role {role.name} for user {user.display_name}. Error: {e}")
+        except discord.errors.HTTPException as e:
+            logger.error(f"❌ HTTP error: Cannot {'add' if add else 'remove'} role {role.name} for user {user.display_name}. Error: {e}")
+        except Exception as e:
+            logger.error(f"❌ Unexpected error: Cannot {'add' if add else 'remove'} role {role.name} for user {user.display_name}. Error: {e}")
+            logger.error(f"Error type: {type(e).__name__}")
+            logger.error(f"Error details: {str(e)}")
 
     async def on_raw_reaction_add(self, payload):
         # Handle event when a reaction is added
